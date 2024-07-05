@@ -1,0 +1,158 @@
+.div1 {
+    margin-top: 15px;
+    margin-left: 35px;
+    background-color: white;
+    width: 29%;
+    float: left;
+}
+
+.photojane {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.div2 {
+    margin-top: 15px;
+    margin-left: 3%;
+    background-color: white;
+    width: 60%;
+    float: left;
+}
+
+.div3 {
+    margin-top: 30px;
+    margin-left: 3%;
+    background-color: white;
+    width: 60%;
+    float: left;
+}
+
+.navbottom {
+    float: left;
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+    background-color: #009688;
+}
+
+.facebookicon {
+    padding-top: 3px;
+    padding-right: 2px;
+    padding-left: 5px;
+    background-color: white;
+    color: #009688;
+    border: 1px solid #009688;
+    text-align: left;
+}
+
+.facebookicon:hover {
+    background-color: #76E9D9;
+}
+
+.instaicon {
+    background-color: #009688;
+    color: white;
+    text-align: left;
+}
+
+.instaicon:hover {
+    color: #58CDBD;
+    border-radius: 5px;
+}
+
+.snapicon {
+    background-color: #009688;
+    color: white;
+}
+
+.snapicon:hover {
+    color: #58CDBD;
+    border-radius: 5px;
+}
+
+.pintresticon {
+    background-color: #009688;
+    color: white;
+}
+
+.pintresticon:hover {
+    color: #58CDBD;
+    border-radius: 40px;
+}
+
+.twittericon {
+    background-color: #009688;
+    color: white;
+}
+
+.twittericon:hover {
+    color: #58CDBD;
+    border-radius: 40px;
+}
+
+.linkedinicon {
+    background-color: #009688;
+    color: white;
+}
+
+.linkedinicon:hover {
+    color: #58CDBD;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .div1, .div2, .div3 {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+    .div2 {
+        margin-top: 15px;
+    }
+    .div3 {
+        margin-top: 15px;
+    }
+    .navbottom {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .div1, .div2, .div3 {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+    .div2 {
+        margin-top: 15px;
+    }
+    .div3 {
+        margin-top: 15px;
+    }
+    .navbottom {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .div1, .div2, .div3 {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+    .div1 {
+        margin-left: 0;
+    }
+    .div2 {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .div3 {
+        margin-top: 15px;
+
+    }
+    .navbottom {
+        width: 100%;
+    }
+}
